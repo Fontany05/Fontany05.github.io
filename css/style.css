@@ -1,0 +1,464 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+body{
+    background: #ffffff;
+    font-family: 'Gloria Hallelujah', cursive;
+    
+}
+
+/* navbar */
+
+.navbar{
+    background-color: #a7d7ba;
+    padding: 1.5rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.navbar-collapse{
+    text-align: center;
+    justify-content: space-between;
+    color: #fff;
+    
+}
+
+#brand{
+    font-size: 1.5rem;
+    color: #f3f1f3;
+}
+
+#brand:hover{
+    color: #000000;
+    
+}
+
+
+li {
+    margin: 0 20px;
+    
+}
+
+.socials a{
+   font-size: 1.5rem;
+   color: #fff;
+   text-decoration: none;
+   padding: 0.4rem;
+  
+}
+
+
+.nav-item a {
+    font-size: 1rem;
+    color: #fff;
+}
+
+.nav-item .nav-link a:hover{
+    background: #030303;
+    color: #f3f1f3;
+    border-radius: 5px;
+}
+
+.li .icon-link a:hover{
+    background: #030303;
+    color: #f3f1f3;
+    border-radius: 5px;
+}
+
+/* responsive */
+
+@media screen and (max-width: 767px) {
+    .navbar-brand {
+        display: none;
+    }
+
+}
+
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* cta */
+
+.sect-cta{
+    min-height: 450px;
+} 
+
+.cta{
+    width: 100%;
+    height: 80vh;
+    background-image: url(../img/fondo.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    
+}
+
+
+.cta .content{
+    text-align: center;
+
+}
+
+.cta .content h5{
+    color: #ffff;
+    font-size: 2.3rem;
+    font-weight: 400;
+    margin-bottom: 28px;
+    margin-top: 20px;
+
+}
+
+.cta .content h5{
+    color: #ffff;
+    font-size: 2rem;
+    font-weight: 500;
+    text-shadow: 0px 1px 1px #000;
+
+}
+
+.cta .content h1{
+    color: #ffff;
+    font-size: 2rem;
+    font-weight: 500;
+    text-shadow: 0px 1px 1px #000;
+    margin-bottom: 28px;
+    margin-top: 20px;
+}
+
+
+.cta .content p{
+    color: #ffff;
+    font-size: 1rem;
+    font-weight: 400;
+    text-shadow: 0px 1px 1px #000;
+    margin-bottom: 28px;
+    margin-top: 20px;
+}
+
+.cta .content a{
+    font-size: 1rem;
+    padding: 10px 15px;
+    background: #000000;
+    color: #fffdfd;
+    letter-spacing: 2px;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.5;
+    cursor: pointer;
+    
+}
+
+.cta .content a:hover{
+    background: #fdfdfd;
+    color: #070707;
+}
+
+/* About me */
+
+.about{
+    padding: 30px;
+    
+}
+
+.about .cont{
+    height: 290px;
+    margin-bottom: 100px;
+    margin-top: 18px;
+    padding: 8px 8px;
+    
+}
+
+
+.about img{
+    height: 150px;
+    margin-bottom: 15px;
+    margin-top: 8px;
+}
+
+
+.about .cont p h4 h5{
+    font-size: 1rem;
+    margin-top: 12px;
+    margin-bottom: 13px;
+    
+}
+
+.title{
+    color: #05a3ad;
+}
+
+.me .title-me{
+   margin-top: 10px;
+   border-bottom: 5px solid #a7d7ba;
+   width: fit-content;
+}
+.title-skill{
+    margin-top: 40px;
+    border-bottom: 5px solid #a7d7ba;
+    width: fit-content;
+    
+}
+
+.cont .title{
+    margin-top: 30px;
+    
+    
+}
+
+.badges-contenedor{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.badges{
+    margin: 5px;
+   
+}
+
+.tester{
+    margin-bottom: 40px;
+}
+
+/* mi trabajo*/
+
+.proyect-gallery{
+    padding: 40px;
+    display: flex;
+    background-image: url(../img/inspiracion.png);
+    align-items: center;
+    margin-top: 120px;
+    background-repeat: no-repeat;
+    background-size:16rem;
+    background-color: #f3f1f3e1;
+}
+
+/* servicio */
+
+.servicio h1{
+    font-size: 1.8rem;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.servicio .parrafo-q{
+    font-size: 1rem;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+
+.cont-ser{
+    margin-top: 40px;
+}
+
+.icon-ser{
+    height: 48px;
+    margin-bottom: 8px;
+
+}
+
+.div-ser{
+    font-size: 1rem;
+    text-align: left;
+    margin-top: 30px;
+    
+}
+
+.title-gallery {
+    font-size: 1rem;
+    padding-top: 20px;
+    margin-top: 50px;
+}
+
+.description{
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+
+.proyect-gallery .proyect-img{
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    transition: all 0.2s ease;
+
+}
+.proyect{
+ background-color: #a7d7ba9c;
+ padding: 15px;
+ border-radius: 3px;
+ margin: 5px;
+}
+
+
+.title-proyect h5{
+    font-size: 20px;
+    font-weight: bold;
+    color: #fcfcfc;
+   
+}
+
+.title-gallery{
+    font-size: 2rem;
+    padding: 15px 0;
+
+}
+
+/* contacto */
+
+.contact{
+    padding: 30px;
+    
+}
+
+.cont-contact .col-title{
+    margin-top: 30px;
+
+}
+
+.col-social h5{
+   font-size: 2rem;
+   color: #05a3ad;
+   margin-top: 30px;
+   margin-bottom: 20px;
+   border-bottom: 5px solid #05a3ad;
+   width: fit-content;
+}
+
+.col-social h4{
+    font-size: 1rem;
+}
+
+.col-social p{
+    font-size: 1.2rem;
+}
+
+.col-social i{
+    margin: 4px 4px;
+    color: #a7d7ba;
+    font-size: 1.3rem;
+}
+
+.contac-form{
+    background-image: url(../img/web.png);
+    background-repeat: no-repeat;
+    margin-top: 20px;
+}
+
+
+.form-control{
+   margin: 5px 5px;
+    
+}
+
+.formulario{
+    padding-left: 10px;
+}
+  
+
+.formulario,
+  .formulario textarea{
+    width: 64%;
+    margin-bottom: 15px;
+    padding: 10px 15px;
+    font-weight: 400;
+    outline: 0;
+  }
+  .formulario textarea{
+    max-width: 90%;
+    min-width: 90%;
+    min-height: 180px;
+    max-height: 200px;
+    min-width: 400px;
+  }
+  .formulario .form-control{
+    width: 400px;
+    border-color: #05a3ad;
+    box-shadow: 0 0 8px rgba(102, 232, 241, 0.815);
+  }
+
+  
+  .formulario button{
+    align-items: center;
+  }
+
+  .btn-enviar {
+    padding: 8px 10px;
+    background: #000000;
+    color: #fffdfd;
+    letter-spacing: 2px;
+    font-weight: 500;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 0.5;
+    cursor: pointer;
+    margin-left: 4px;
+}
+
+.btn-enviar:hover{
+    background: #a7d7ba;
+    color: #070707;
+}
+
+/*footer*/
+
+.sect-footer{
+    background-color: #050505ef;
+    color: #fff;
+    margin-top: 3px;
+    
+}
+
+.brand-footer .title-footer{
+    font-size: 1.6rem;
+    margin-top: 20px;
+    color: #a7d7ba;
+   
+}
+
+.parraf-footer .p-footer{
+    font-size: 1.3rem;
+}
+.parraf-footer li {
+    margin: 3px 3px;
+    
+}
+
+.parraf-footer .f-socials{
+    font-size: 1.4rem;
+    color: #fff;
+    text-decoration: none;
+   
+ }
+
+ .parraf-footer .f-socials{
+    padding: 1.2rem;
+    display: inline;
+    width: 100%;
+
+}
+
+.f-socials i{
+    text-decoration: none;
+    color: #05a3ad;
+    padding: 5px 5px;
+    cursor: pointer;
+}
+
+
+.copy a{
+    text-decoration: none;
+    color: #05a3ad;
+    align-items: end;
+   
+}
